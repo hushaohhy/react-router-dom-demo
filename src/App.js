@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import AppRouter from './router/router'
+import './services/http'
+import './services/httpConfig'
 
 class App extends Component {
   render() {

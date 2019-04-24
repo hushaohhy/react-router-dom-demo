@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import TestRedux from './TestRedux'
+
 export default class Page2 extends Component{
     constructor(props) {
         super(props)
@@ -22,6 +24,7 @@ export default class Page2 extends Component{
         return (
             <div>
                 <h1>这是page2页面组件{this.props.location.state.day}</h1>
+                <TestRedux></TestRedux>
             </div>
         )
     }

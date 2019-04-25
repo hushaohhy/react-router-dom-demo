@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import TestRedux from './TestRedux';
 import BtnCommon from './btn/btn'
+import Antd1 from './antdTest/antd1'
 
 export default class Page2 extends Component{
     constructor(props) {
@@ -27,6 +28,7 @@ export default class Page2 extends Component{
                 <h1>这是page2页面组件{this.props.location.state.day}</h1>
                 <TestRedux></TestRedux>
                 <BtnCommon />
+                <Antd1/>
             </div>
         )
     }

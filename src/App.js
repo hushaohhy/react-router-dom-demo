@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import AppRouter from './router/router'
 import './services/http'
 import './services/httpConfig'
+import './common/reset.scss'
+import 'normalize.css'
 
 // Provider是react-redux两个核心工具之一，作用：将store传递到每个项目中的组件中
 // 第二个工具是connect，稍后会作介绍

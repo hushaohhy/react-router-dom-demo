@@ -1,9 +1,11 @@
 .btn-common {
-  //border: 1px red solid;
+  border: 1px red solid;
+  width: 300px;
   button {
     border: none;
     background: none;
     outline: none;
-    border: 1px red solid;
+    //border: 1px red solid;
+    width: 200px;
   }
 }
